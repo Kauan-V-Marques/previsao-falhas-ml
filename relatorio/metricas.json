@@ -1,0 +1,33 @@
+{
+  "modelo_escolhido": "random_forest",
+  "limiar": 0.3765,
+  "prevalencia_falhas": 0.0339,
+  "validacao_cruzada_treino": {
+    "regressao_logistica": {
+      "pr_auc": 0.4552,
+      "roc_auc": 0.9223
+    },
+    "random_forest": {
+      "pr_auc": 0.8926,
+      "roc_auc": 0.9769
+    },
+    "gradient_boosting": {
+      "pr_auc": 0.8842,
+      "roc_auc": 0.9719
+    }
+  },
+  "teste": {
+    "roc_auc": 0.9798,
+    "pr_auc": 0.878,
+    "precisao": 0.9062,
+    "recall": 0.8529,
+    "f1": 0.8788,
+    "f2": 0.8631,
+    "matriz_confusao": {
+      "vp": 58,
+      "fp": 6,
+      "fn": 10,
+      "vn": 1926
+    }
+  }
+}
